@@ -161,20 +161,34 @@
                     <label for="message" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="message" rows="3" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary" id="liveToastBtn" data-bs-toggle="tooltip" data-bs-placement="right" title="Presiona para enviar correo">Enviar</button>
             </form>
         </div>
     </section>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="./assets/images/viajes.svg" alt="Logo" width="30" height="24" class="rounded me-2">
+            <strong class="me-auto">Mensaje enviado</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            Su mensaje ha sido enviado correctamente
+          </div>
+        </div>
+      </div>
 
     <!-- Footer -->
     <footer class="text-center py-4">
         <div class="row">
             <div class="col-6">VIAJES CHILE</div>
             <div class="col-6 social-icons">
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Facebook"><i class="fa-brands fa-facebook"></i></a>
             </div>
         </div>
     </footer>

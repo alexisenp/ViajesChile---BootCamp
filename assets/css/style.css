@@ -3,3 +3,18 @@
     background-size: cover;
     height: 80vh;
 }
+
+/* Quienes Somos Section */
+#quienes-somos {
+    background-color: #000;
+}
+
+#quienes-somos .card {
+    background-color: #000;
+    color: white;
+    border: none;
+}
+#quienes-somos .card-header {
+    background-color: #44bcd8;
+    height: 40px;
+}

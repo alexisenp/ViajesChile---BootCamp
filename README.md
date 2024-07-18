@@ -4,8 +4,10 @@ Este proyecto es una prueba realizada para el BootCamp "Desarrollo de aplicacion
 Los detalles completos de los requerimientos los pueden encontrar en el archivo requerimientos.pdf.
 
 
-## Ver Resultado
-[Live View aquí](https://alexisenp.github.io/ViajesChile---BootCamp/)
+## Live Demo
+
+<a href="https://alexisenp.github.io/ViajesChile---BootCamp/" target="_blank">Live View aquí</a>
+
 
 ## Tecnologías Utilizadas
 

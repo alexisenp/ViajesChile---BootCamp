@@ -1,82 +1,96 @@
-/* General Styles */
+/* Estilos Generales */
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-/* Header Section */
-.altura-carousel {
-    background-size: cover;
-    height: 85vh;
+    font-family: "Roboto", sans-serif; /* Fuente principal del sitio */
+    font-weight: 400; /* Peso de fuente normal */
+    font-style: normal; /* Estilo de fuente normal */
 }
 
-/* Quienes Somos Section */
+/* Estilo inicial para la barra de navegación */
+.navbar {
+    transition: background-color 0.5s;
+}
+
+/* Estilo para la barra de navegación con fondo oscuro cuando se desplaza hacia abajo */
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro medio transparente */
+}
+
+
+/* Sección de la Cabecera (Header) */
+.altura-carousel {
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el área */
+    height: 85vh; /* Altura del carrusel (85% de la altura de la ventana) */
+}
+
+/* Sección "¿Quiénes Somos?" */
 #quienes-somos {
-    background-color: #000;
+    background-color: #000; /* Fondo negro para la sección */
 }
 
 #quienes-somos .card {
-    background-color: #000;
-    color: white;
-    border: none;
+    background-color: #000; /* Fondo negro para las tarjetas */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde en las tarjetas */
 }
+
 #quienes-somos .card-header {
-    background-color: #44bcd8;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #44bcd8; /* Fondo azul claro para el encabezado de la tarjeta */
+    height: 40px; /* Altura del encabezado de la tarjeta */
+    display: flex; /* Flexbox para centrar contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 
 #quienes-somos i {
-    font-size: 30px;
+    font-size: 30px; /* Tamaño de los iconos en la sección */
 }
 
-/* Para dispositivos pequeños (teléfonos, menos de 576px) */
+/* Estilos para dispositivos pequeños (teléfonos, menos de 576px) */
 @media (max-width: 575.98px) {
-  
     #quienes-somos {
-        display: none;
+        display: none; /* Oculta la sección "¿Quiénes Somos?" en dispositivos pequeños */
     }
-  }
+}
 
-/* Destacados Section */
+/* Sección "Destacados" */
 #destacados {
-    background-color: #000;
+    background-color: #000; /* Fondo negro para la sección */
+}
+#destacados h2 {
+    color: #fff;
 }
 
 #destacados .card {
-    margin-bottom: 30px;
-    background-color: #44bcd8;
-    color: #fff;
+    margin-bottom: 30px; /* Espaciado inferior entre tarjetas */
+    background-color: #44bcd8; /* Fondo azul claro para las tarjetas */
+    color: #fff; /* Texto blanco */
 }
 
 #destacados img {
-    height: 200px;
-    object-fit: cover;
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
 }
 
-/* Contacto Section */
+/* Sección "Contacto" */
 #contacto {
-    background-color: #000;
-    color: #fff;
+    background-color: #000; /* Fondo negro para la sección */
+    color: #fff; /* Texto blanco */
 }
 
 #contacto button {
-    color: #fff;
-    background-color: #44bcd8;
-    border-color: #44bcd8;
+    color: #fff; /* Texto blanco en el botón */
+    background-color: #44bcd8; /* Fondo azul claro para el botón */
+    border-color: #44bcd8; /* Borde del mismo color que el fondo del botón */
 }
 
-/* Footer Section */
+/* Sección del Pie de Página (Footer) */
 footer {
-    background-color: #44bcd8;
-    color: #fff;
-    font-size: 25px;
+    background-color: #44bcd8; /* Fondo azul claro para el pie de página */
+    color: #fff; /* Texto blanco */
+    font-size: 25px; /* Tamaño de fuente más grande para el texto del pie de página */
 }
 
 footer .social-icons a {
-    color: #fff;
-    margin: 0 10px;
+    color: #fff; /* Color blanco para los iconos de redes sociales */
+    margin: 0 10px; /* Espaciado horizontal entre iconos */
 }
-

@@ -1,7 +1,7 @@
 /* Header Section */
 .altura-carousel {
     background-size: cover;
-    height: 80vh;
+    height: 85vh;
 }
 
 /* Quienes Somos Section */
@@ -25,6 +25,14 @@
 #quienes-somos i {
     font-size: 30px;
 }
+
+/* Para dispositivos pequeños (teléfonos, menos de 576px) */
+@media (max-width: 575.98px) {
+  
+    #quienes-somos {
+        display: none;
+    }
+  }
 
 /* Destacados Section */
 #destacados {

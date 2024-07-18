@@ -1,3 +1,9 @@
+/* General Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 /* Header Section */
 .altura-carousel {
     background-size: cover;

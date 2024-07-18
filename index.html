@@ -10,7 +10,7 @@
 <body>
     <!-- Header Section -->
     <header id="inicio" class="bg-dark text-white">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container px-4">
                 <a class="navbar-brand text-light" href="#"> Viajes Chile</a>
                 <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +34,28 @@
                 </div>
             </div>
         </nav>
+        <!-- Carousel -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active altura-carousel">
+                    <img src="./assets/images/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item altura-carousel">
+                    <img src="./assets/images/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item altura-carousel">
+                    <img src="./assets/images/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
 
     <!-- Quienes Somos Section -->

@@ -41,3 +41,28 @@
     height: 200px;
     object-fit: cover;
 }
+
+/* Contacto Section */
+#contacto {
+    background-color: #000;
+    color: #fff;
+}
+
+#contacto button {
+    color: #fff;
+    background-color: #44bcd8;
+    border-color: #44bcd8;
+}
+
+/* Footer Section */
+footer {
+    background-color: #44bcd8;
+    color: #fff;
+    font-size: 25px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+}
+

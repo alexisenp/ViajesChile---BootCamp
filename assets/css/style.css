@@ -25,3 +25,19 @@
 #quienes-somos i {
     font-size: 30px;
 }
+
+/* Destacados Section */
+#destacados {
+    background-color: #000;
+}
+
+#destacados .card {
+    margin-bottom: 30px;
+    background-color: #44bcd8;
+    color: #fff;
+}
+
+#destacados img {
+    height: 200px;
+    object-fit: cover;
+}

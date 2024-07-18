@@ -4,7 +4,9 @@ body {
     font-weight: 400; /* Peso de fuente normal */
     font-style: normal; /* Estilo de fuente normal */
 }
-
+#inicio {
+    background-color: #000;
+}
 /* Estilo inicial para la barra de navegación */
 .navbar {
     transition: background-color 0.5s;
@@ -20,6 +22,11 @@ body {
 .altura-carousel {
     background-size: cover; /* Asegura que la imagen de fondo cubra todo el área */
     height: 85vh; /* Altura del carrusel (85% de la altura de la ventana) */
+}
+#carouselExample img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Asegura que la imagen ocupe todo el alto del contenedor */
+    object-fit: cover; /* Hace que la imagen se comporte como background-size: cover */
 }
 
 /* Sección "¿Quiénes Somos?" */

@@ -25,6 +25,18 @@ Este proyecto es una página web de muestra para "Viajes Chile", una agencia de 
 ### Google Fonts
 **CDN Google Fonts:**
 
+### Componentes Bootstrap Utilizados
+
+El proyecto "Viajes Chile" utiliza los siguientes componentes de Bootstrap:
+
+- **Navbar**: Para la barra de navegación fija.
+- **Button**: En el formulario de contacto y los controles del carrusel.
+- **Carousel**: Para el carrusel de imágenes.
+- **Card**: Para mostrar los destinos destacados.
+- **Forms**: En el formulario de contacto.
+- **Toast**: Para la notificación de confirmación.
+
+
 ### Estructura del Proyecto
 **Encabezado (Header)**
 El encabezado incluye una barra de navegación fija con enlaces a las diferentes secciones de la página y un carrusel de imágenes.

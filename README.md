@@ -1,6 +1,7 @@
-# Documentación del Proyecto "Viajes Chile"
+# Documentación del Proyecto "Viajes Chile" 
 
-Este proyecto es una página web de muestra para "Viajes Chile", una agencia de viajes ficticia. La página incluye una navegación fija, un carrusel de imágenes, secciones de contenido y un formulario de contacto. A continuación se detallan las librerías y componentes utilizados en este proyecto.
+Este proyecto es una prueba realizada para el BootCamp de [Talento Digital para Chile](https://talentodigitalparachile.cl/). En el cual se pedia realizar una página web de muestra para "Viajes Chile", una agencia de viajes ficticia. La página incluye una navegación fija, un carrusel de imágenes, secciones de contenido y un formulario de contacto. A continuación se detallan las librerías y componentes utilizados en este proyecto.
+Los detalles completos de los requerimientos los pueden encontrar en el archivo requerimientos.pdf.
 
 ## Tecnologías Utilizadas
 
@@ -43,12 +44,15 @@ Este proyecto es una página web de muestra para "Viajes Chile", una agencia de 
 
 El proyecto "Viajes Chile" utiliza los siguientes componentes de Bootstrap:
 
+Componentes bootstrap que no usan javascript
 - **Navbar**: Para la barra de navegación fija.
 - **Button**: En el formulario de contacto y los controles del carrusel.
-- **Carousel**: Para el carrusel de imágenes.
 - **Card**: Para mostrar los destinos destacados.
 - **Forms**: En el formulario de contacto.
+
+- **Carousel**: Para el carrusel de imágenes.
 - **Toast**: Para la notificación de confirmación.
+- **Tooltip**: Para mostrar mensajes de ayuda.
 
 
 ### Estructura del Proyecto

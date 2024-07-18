@@ -3,6 +3,10 @@
 Este proyecto es una prueba realizada para el BootCamp "Desarrollo de aplicaciones Front-End " de [Talento Digital para Chile](https://talentodigitalparachile.cl/). En el cual se pedia realizar una página web de muestra para "Viajes Chile", una agencia de viajes ficticia. La página incluye una navegación fija, un carrusel de imágenes, secciones de contenido y un formulario de contacto. A continuación se detallan las librerías y componentes utilizados en este proyecto.
 Los detalles completos de los requerimientos los pueden encontrar en el archivo requerimientos.pdf.
 
+
+## Ver Resultado
+[Live View aquí](https://alexisenp.github.io/ViajesChile---BootCamp/)
+
 ## Tecnologías Utilizadas
 
 - **HTML5**: Estructura básica del sitio web.

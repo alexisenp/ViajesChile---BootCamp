@@ -17,4 +17,11 @@
 #quienes-somos .card-header {
     background-color: #44bcd8;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quienes-somos i {
+    font-size: 30px;
 }
